@@ -1,0 +1,4 @@
+{
+	// Character icon for lives
+	"hud_lives_icon_slot230":    { "File": "hud_slot230.png", "Rect": "0,16,48,16" }
+}

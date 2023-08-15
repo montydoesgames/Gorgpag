@@ -1,0 +1,11 @@
+{
+	// Character bumper
+	"bump_undefined_0x00":  { "File": "bluesphere_bumper.png", "Rect": "0,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x01":  { "File": "bluesphere_bumper.png", "Rect": "24,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x02":  { "File": "bluesphere_bumper.png", "Rect": "48,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x03":  { "File": "bluesphere_bumper.png", "Rect": "72,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x04":  { "File": "bluesphere_bumper.png", "Rect": "96,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x05":  { "File": "bluesphere_bumper.png", "Rect": "120,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x06":  { "File": "bluesphere_bumper.png", "Rect": "144,0,16,16", "Center": "8,8" },
+	"bump_undefined_0x07":  { "File": "bluesphere_bumper.png", "Rect": "168,0,16,16", "Center": "8,8" }
+}
