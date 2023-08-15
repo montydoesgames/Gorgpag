@@ -1,0 +1,28 @@
+{
+	"Metadata":
+	{
+		"Name": "Extra Slot Sonic",
+		"Author": "mittensstretch",
+		"UniqueID": "extraslotsonictemplate",
+		"Description": "A free to use extra slot template that uses Sonic.",
+		"ModVersion": "1.0",
+	},
+	"Settings":
+	{
+		"Settings":
+		[
+			{
+				"InternalName": "idk",
+				"DisplayName": "Partner",
+				"Variable": "Sonic_Partner",
+				"DefaultValue": "0",
+				"Category": "Gameplay",				
+				"Options":
+				{
+					"0": "Off",
+					"1": "On"
+				}
+			}
+			]
+		}
+	}
