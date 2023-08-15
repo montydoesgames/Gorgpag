@@ -1,0 +1,41 @@
+//# address-hook(0x011da6) end(0x011dec)
+function void Character.UpdateUprightSlopeEffect()
+{
+
+}
+
+//# address-hook(0x011dee) end(0x011e28)
+function void Character.UpdateRollingSlopeEffect()
+{
+
+}
+
+//# address-hook(0x010bba) end(0x010c8e)
+function void Character.UpdateNormalState.Sonic()
+{
+    if !(abs(char.groundspeed) == 0x0600) || !(abs(char.groundspeed) == -0x0600) || !(abs(char.groundspeed) == 0)
+        char.groundspeed = (control.player1.state & CONTROL_LEFT) ? -0x0600 : (control.player1.state & CONTROL_RIGHT) ? 0x0600 : 0
+        if !(char.velocity.x == 0x0600) || !(char.velocity.x == -0x0600) || !(char.velocity.x == 0)
+        char.velocity.x = (control.player1.state & CONTROL_LEFT) ? -0x0600 : (control.player1.state & CONTROL_RIGHT) ? 0x0600 : 0
+base.Character.UpdateNormalState.Sonic()
+}
+
+//# address-hook(0x0137c4) end(0x0138f4)
+function void Character.UpdateNormalState.Tails()
+{
+    if !(abs(char.groundspeed) == 0x0600) || !(abs(char.groundspeed) == -0x0600) || !(abs(char.groundspeed) == 0)
+        char.groundspeed = (control.tails.state & CONTROL_LEFT) ? -0x0600 : (control.tails.state & CONTROL_RIGHT) ? 0x0600 : 0
+        if !(char.velocity.x == 0x0600) || !(char.velocity.x == -0x0600) || !(char.velocity.x == 0)
+        char.velocity.x = (control.tails.state & CONTROL_LEFT) ? -0x0600 : (control.tails.state & CONTROL_RIGHT) ? 0x0600 : 0
+base.Character.UpdateNormalState.Tails()
+}
+
+//# address-hook(0x01656c) end(0x016640)
+function void Character.UpdateNormalState.Knuckles()
+{
+    if !(abs(char.groundspeed) == 0x0600) || !(abs(char.groundspeed) == -0x0600) || !(abs(char.groundspeed) == 0)
+        char.groundspeed = (control.player1.state & CONTROL_LEFT) ? -0x0600 : (control.player1.state & CONTROL_RIGHT) ? 0x0600 : 0
+        if !(char.velocity.x == 0x0600) || !(char.velocity.x == -0x0600) || !(char.velocity.x == 0)
+        char.velocity.x = (control.player1.state & CONTROL_LEFT) ? -0x0600 : (control.player1.state & CONTROL_RIGHT) ? 0x0600 : 0
+base.Character.UpdateNormalState.Knuckles()
+}
